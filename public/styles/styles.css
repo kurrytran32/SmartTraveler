@@ -1,0 +1,376 @@
+html {
+  width: 100%;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.nav {
+  width: 100%;
+  height: auto;
+}
+
+.nav-link {
+  color: darkblue;
+  float: right;
+  font-size: 20px;
+  font-family: 'Baloo Tammudu', cursive;
+}
+
+.logo {
+  color: whitesmoke;
+  font-family: 'Lobster', cursive;
+  margin-top: 11px;
+  margin-left: 35px; 
+}
+
+.navOptions {
+  margin-top: 13px;
+  width: 80%;
+}
+
+#planning {
+  position: relative;
+}
+
+
+.list-group-item {
+  line-height: 2.5;
+}
+
+.formTitleSection {
+  text-align: center;
+}
+
+.plan {
+  margin-top: 30px;
+}
+
+.expense {
+  margin-top: 30px;
+  flex: 1;
+  margin: 30px;
+  margin-left: 50px;
+}
+
+.examples {
+  flex: 1;
+  margin: 30px;
+  margin-right: 50px;
+}
+
+.form {
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  height: auto;
+}
+
+label {
+  font-weight: bolder;
+}
+
+#planForm input {
+  width: 300px;
+  display: inline;
+  margin-bottom: 15px;
+}
+
+.front-page {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-family: 'Noto Sans', sans-serif;
+  margin-top: 30px;
+}
+
+.searchForm {
+  text-align: center;
+  height: auto;
+}
+
+#searchLabel {
+  display: inline;
+}
+
+#search {
+  position: relative;
+  background-size: cover;
+}
+
+
+#searchInput {
+  display: inline;
+  width: 50%;
+}
+
+#search::after {
+  content: "";
+  background: url(../images/bg2.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1; 
+}
+#submission {
+  position: relative;
+}
+
+#submission::after {
+  content: "";
+  background: url(../images/bg6.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1; 
+}
+
+#planning::after {
+  content: "";
+  background: url(../images/background.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+.page-content {
+  min-height: calc(100vh - 57px);
+  display: flex;
+  justify-content: center;
+}
+
+.form-group {
+  height: auto;
+}
+#formResult {
+  position: relative;
+  height: auto;
+}
+
+#formResult::after {
+  content: "";
+  background: url(../images/form-result.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+.formResultArea {
+  width: 900px;
+  margin-top: 30px;
+}
+.graphArea {
+  
+  height: 500px;
+  flex: 2;
+}
+
+.budgetArea {
+  height: auto;
+  flex: 3;
+}
+
+#expenses {
+  position: relative;
+}
+
+#expenses::after {
+  content: "";
+  background: url(../images/form-result.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+
+.category {
+  margin-top: 20px;
+  font-weight: bolder;
+}
+
+
+#home {
+  position: relative;
+}
+
+.description {
+  text-emphasis: bold;
+}
+
+#home::after {
+  content: "";
+  background: url(../images/bg5.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+.footerArea {
+  height: 60px;
+}
+
+.title {
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: bold;
+}
+
+.contentFont {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+#budgetData {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+
+ 
+}
+.getStarted {
+  background-color: darkblue;
+}
+
+#startOverButton {
+  background-color: red;
+  border: red;
+}
+
+#budgetFinishButton {
+  background-color: green;
+  border: green;
+}
+
+.copyright {
+  margin-top: 10px;
+  color: white;
+}
+
+#tripExamples {
+  height: auto;
+  width: 100%;
+  border: solid darkblue 3px;
+  
+}
+
+#plannedCost {
+  display: inline;
+  margin-top: 20px;
+}
+
+#expenseAdd {
+  display: inline;
+}
+
+#expenseFormSubmit {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: darkblue;
+  border: darkblue;
+}
+
+#planFormSubmit {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  background-color: darkblue;
+  border: darkblue;
+}
+
+.homecopyright {
+  margin-top: 10px;
+  color: whitesmoke;
+}
+
+#entriesArea {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+}
+
+.resultCard {
+  width: 400px;
+  height: 300px;
+  margin: 10px;
+  border: darkblue solid 3px;
+}
+
+.center {
+  text-align: center;
+}
+
+.search-page {
+  flex-direction: column;
+  justify-content: start;
+}
+
+#searchResults {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.searchTitle {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.cityResult {
+  font-family: 'Noto Sans', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.allEntriesTitle {
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
